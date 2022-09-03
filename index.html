@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-<script src="https://raw.githubusercontent.com/RezaKazzel/QrCode/main/script.js" crossorigin="anonymous"></script>
  <head></head> 
  <body> 
   <div class="center"> 
@@ -8,8 +7,13 @@
    <div> 
     <input type="text" id="text" placeholder="Enter text"> 
     <br> 
-    <br> <button type="button" onclick="myFunction()">Click Me!</button>
-    <br> <button type="button" onclick="generateQR()"> Generate QR </button> 
+    <br> <button type="button" onclick="generateQR()"> Generate QR </button>
+      <script>
+        function generateQR() {
+        //document.getElementById("demo").innerHTML = "Hello World";
+        alert("Hello World");
+        }
+     </script>
     <br> 
     <br> 
     <img src="" id="img"> 
